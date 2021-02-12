@@ -1,5 +1,8 @@
 import { setData } from '../Actions/Actions'
 
+//  GET - Endpoint (fake enpoint)
+const URL= 'https://api.mocki.io/v1/b043df5a'
+
 export const reducer = (store = {}, action) => {
   switch (action.type) {
 
@@ -12,6 +15,6 @@ export const reducer = (store = {}, action) => {
 }
 
 export const fetchDataParsed = () => async (dispatch, getState) => {
-  const data = await fetch('https://api.mocki.io/v1/b043df5a').then(res => res.json())
+  const data = await fetch(URL).then(res => res.json())
   dispatch(setData(data))
 }

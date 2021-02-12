@@ -8,7 +8,9 @@ function SayHello() {
 }
 
 function loadData() {
+  //  Triggering event
   store.dispatch(fetchDataParsed())
+  //  Show data in console
   store.subscribe(res => console.log(store.getState()))
 }
 
