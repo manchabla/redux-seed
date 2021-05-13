@@ -1,7 +1,7 @@
 import { setData } from '../Actions/Actions'
 
 //  GET - Endpoint (fake enpoint)
-const URL= 'https://api.mocki.io/v1/b043df5a'
+const URL= 'https://jsonplaceholder.typicode.com/posts'
 
 export const reducer = (store = {}, action) => {
   switch (action.type) {
