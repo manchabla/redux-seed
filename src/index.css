@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+.walls{
+    margin: 0;
+    font-size: 150px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-family: 'Courgette', cursive;
+}
+
+.walls-info{
+    margin: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 61%;
+    left: 17%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: #edf2fc;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.img-box{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.main-img{
+    height: 140% !important;
+}
